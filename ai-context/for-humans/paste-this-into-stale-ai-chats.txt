@@ -1,0 +1,2 @@
+You seem to be losing context. Please re-read ../for-robots/ai-agent-orientation-start-here.md (especially the "If You're Losing Context" section) and refresh your understanding of the project by reviewing the ../for-robots/current-work/ files.
+
