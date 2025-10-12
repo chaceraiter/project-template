@@ -1,2 +1,2 @@
-[TODO: Single line instruction to paste into AI chats]
+Please read project-template-build-out-meta-wip/.ai-context/for-robots/ai-agent-orientation-start-here.md and follow all instructions contained within.
 
