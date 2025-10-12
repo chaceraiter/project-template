@@ -32,36 +32,58 @@ This directory contains archived summaries from previous AI chat sessions. Each 
 
 ## Your Instructions
 
-Now that you understand the structure, please follow these steps **in order**:
+Great! Let's set up the AI context system for this project. I'll ask you questions to fill out the background files that will help me (and future AI agents) understand your project.
 
-### Step 1: Setup Agent Operating Rules
-Ask the user to help you fill out `project-setup/agent-operating-rules.md`. This is crucial for establishing how you should work together. Ask questions about:
-- Communication style preferences (concise vs. detailed, when to ask vs. proceed)
-- Code quality standards (testing requirements, documentation expectations)
-- Workflow guidelines (git practices, which files to update when)
-- Red lines (what you should never do without explicit permission)
+**We'll cover:**
+- Project vision and goals
+- Technical architecture and tech stack
+- Code patterns and conventions you want to follow
+- Operating rules for how we should work together
+- Current work focus
 
-### Step 2: Understand the Project
-With the user's help, gather information to populate the `project-setup/` files:
-- What is the project's vision and goals? (`project-vision-and-goals.md`)
-- What is the technical architecture and tech stack? (`project-architecture.md`)
-- What code patterns and conventions should be followed? (`code-patterns-and-conventions.md`)
+**Ready? Let's set up your project context, one step at a time.**
 
-Ask clarifying questions to understand the project deeply.
+---
 
-### Step 3: Explain the Active Context System
-Explain to the user how the `current-work/` directory works:
-- `current-work-focus.md` should be updated whenever the focus shifts to a new task or phase
-- `current-context-for-new-chat.md` should be updated regularly (ideally at the end of each session or when significant changes occur) to capture the current state
+### Step 1: Project Vision
+What is this project about? Tell me:
+- What are you building?
+- Why are you building it?
+- Who is it for?
 
-### Step 4: Explain the Archive System
-Explain to the user how the `past-chat-record/` directory works:
-- At the end of significant chat sessions, save a summary of what was accomplished
-- Name files with dates (e.g., `2025-10-12-implemented-auth-system.md`)
-- Include key decisions, code changes, and outstanding issues
+_(Keep it brief - I'll capture this in `project-vision-and-goals.md`)_
 
-### Step 5: Request Permission for Emphatic Reminder
-Ask the user if you may add a very emphatic plea/reminder to `agent-operating-rules.md` about the importance of keeping these context files updated. Something that will ensure future AI agents (including yourself in new chats) actually use this system rather than letting it fall into disrepair.
+### Step 2: Technical Architecture
+What's the technical foundation?
+- What languages, frameworks, or technologies?
+- Any key architectural decisions already made?
+
+_(I'll document this in `project-architecture.md`)_
+
+### Step 3: Code Patterns
+Are there any specific code patterns, naming conventions, or standards you want to follow?
+
+_(Goes into `code-patterns-and-conventions.md`)_
+
+### Step 4: Operating Rules
+How should we work together?
+- Any preferences on communication style?
+- Testing or documentation requirements?
+- Things I should never do without asking?
+
+_(These become your `agent-operating-rules.md`)_
+
+### Step 5: Current Work
+What are you working on right now?
+- Overall project goal?
+- Current phase/milestone?
+- Immediate task?
+
+_(This sets up `current-work-focus.md`)_
+
+---
+
+**After setup:** I'll briefly explain how to use `current-context-for-new-chat.md` and `past-chat-record/` to maintain context across sessions.
 
 ---
 
