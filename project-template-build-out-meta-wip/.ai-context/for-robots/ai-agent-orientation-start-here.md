@@ -18,7 +18,7 @@ This project uses a structured approach to maintain context across conversations
 
 ### `current-work/` - Active Context (Updated Frequently)
 
-**`current-work-focus.md`** - A 3-5 sentence summary structured as: Project Goal → Intermediate Goal → Current Task. This tells you exactly what phase of work we're in and what the immediate focus is.
+**`current-work-focus.md`** - A 3-5 sentence summary with three levels of focus. The **Project Goal** describes the high-level vision of what we're building (the big picture). The **Intermediate Goal** specifies the current phase or milestone we're working toward (medium-term). The **Current Task** states exactly what is being worked on right now (immediate focus). This hierarchical structure helps you quickly understand where we are in the overall journey.
 
 **`current-context-for-new-chat.md`** - A living document with the current state of the project. What's working, what's broken, active issues, recent changes. This should be updated regularly as work progresses.
 

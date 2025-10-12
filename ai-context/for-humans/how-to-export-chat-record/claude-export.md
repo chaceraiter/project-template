@@ -1,3 +1,5 @@
+<!-- SYSTEM FILE - Do not modify. Reference guide for exporting chats. -->
+
 # Exporting Chats from Claude
 
 ## Method 1: Copy Conversation

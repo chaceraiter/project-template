@@ -1,3 +1,5 @@
+<!-- SYSTEM FILE - Do not modify. Reference guide for exporting chats. -->
+
 # Exporting Chats from Aider
 
 ## Method 1: Aider's Built-in History

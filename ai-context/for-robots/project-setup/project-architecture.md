@@ -1,3 +1,5 @@
+<!-- TEMPLATE FILE - Fill this out with your project's architecture and technical decisions. -->
+
 # Project Architecture
 
 [TODO: High-level architecture overview, system design, technology stack, and key technical patterns]

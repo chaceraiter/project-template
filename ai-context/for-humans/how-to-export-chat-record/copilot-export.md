@@ -1,3 +1,5 @@
+<!-- SYSTEM FILE - Do not modify. Reference guide for exporting chats. -->
+
 # Exporting Chats from GitHub Copilot
 
 ## Method 1: Copy from VS Code/IDE

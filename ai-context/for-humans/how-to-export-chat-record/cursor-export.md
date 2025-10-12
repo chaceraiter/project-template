@@ -1,3 +1,5 @@
+<!-- SYSTEM FILE - Do not modify. Reference guide for exporting chats. -->
+
 # Exporting Chats from Cursor
 
 ## Method 1: Copy-Paste (Simple)

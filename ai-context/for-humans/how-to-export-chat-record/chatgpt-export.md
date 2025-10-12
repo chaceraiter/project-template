@@ -1,3 +1,5 @@
+<!-- SYSTEM FILE - Do not modify. Reference guide for exporting chats. -->
+
 # Exporting Chats from ChatGPT
 
 ## Method 1: Built-in Export (Recommended)

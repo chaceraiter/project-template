@@ -1,3 +1,5 @@
+<!-- TEMPLATE FILE - Fill this out with your project-specific operating rules for AI agents. -->
+
 # Agent Operating Rules
 
 [TODO: Core principles and guidelines that should be kept in mind throughout all interactions]

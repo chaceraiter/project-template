@@ -1,10 +1,12 @@
+<!-- TEMPLATE FILE - Fill this out with your project's current work focus. Update whenever focus shifts. -->
+
 # Current Work Focus
 
-We are building an AI context system (starter pack) for vibe coding / AI-assisted development. The primary goal is to solve the pain points of context loss between AI chat sessions, eliminating the need to manually paste summaries, and maintaining project awareness across conversations.
+[Provide a 3-5 sentence summary describing your project's current state and focus.]
 
-- **Project Goal:** Create a tool-agnostic folder structure with documentation files that any AI agent can read to quickly understand a project's context, goals, patterns, and current state.
+- **Project Goal:** [High-level vision - what you're building overall]
 
-- **Intermediate Goal:** Plan and build out the directory structure in `project-template-build-out-meta-wip/.ai-context/` with two main sections: `for-humans/` (instructions for humans) and `for-robots/` (files for AI agents to read).
+- **Intermediate Goal:** [Current phase/milestone - what you're working toward now]
 
-- **Current Task:** We've finalized the directory structure with `project-setup/`, `current-work/`, and `past-chat-record/` subdirectories. Next, we need to write the actual content for `paste-this-into-new-ai-chats.txt` and `ai-agent-orientation-start-here.md` that will bootstrap new AI conversations.
+- **Current Task:** [Immediate focus - what's being worked on right now]
 
