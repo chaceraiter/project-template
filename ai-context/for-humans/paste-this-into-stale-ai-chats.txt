@@ -1,4 +1,4 @@
 <!-- SYSTEM FILE - Do not modify. Copy this text into an AI chat that's losing context. -->
 
-You seem to be losing context. Please re-read ../for-robots/ai-agent-orientation-start-here.md (especially the "If You're Losing Context" section) and refresh your understanding of the project by reviewing the ../for-robots/current-work/ files.
+This chat is losing context. Please read ../for-robots/ai-agent-stale-chat-procedures.md and follow all instructions contained within.
 

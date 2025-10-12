@@ -30,7 +30,19 @@ This directory contains archived summaries from previous AI chat sessions. Each 
 
 ## Your Instructions
 
-Great! Let's set up the AI context system for this project. I'll ask you questions to fill out the background files that will help me (and future AI agents) understand your project.
+**First, quick question:** Is this a new project you're just starting, or an existing project where you're adding the AI context system?
+
+### If This is an EXISTING Project
+
+Great! Let me get oriented first. Please let me read:
+1. `current-work/current-work-focus.md` - To understand where you are right now
+2. `current-work/current-context-for-new-chat.md` - To see the current state
+
+After that, I'll help you fill in any missing `project-setup/` files if needed.
+
+### If This is a NEW Project
+
+Perfect! Let's set up the AI context system. I'll ask you questions to fill out the background files that will help me (and future AI agents) understand your project.
 
 **We'll cover:**
 - Project vision and goals
@@ -82,17 +94,4 @@ _(This sets up `current-work-focus.md`)_
 ---
 
 **After setup:** I'll briefly explain how to use `current-context-for-new-chat.md` and `past-chat-record/` to maintain context across sessions.
-
----
-
-## If You're Losing Context
-
-If the user directed you to this file because you seem to be losing context or forgetting project details:
-
-1. **Re-read** `project-setup/agent-operating-rules.md` - Remember your operating principles
-2. **Re-read** `current-work/current-work-focus.md` - Reorient yourself to what we're working on
-3. **Re-read** `current-work/current-context-for-new-chat.md` - Catch up on the current state
-4. **Scan** `past-chat-record/` - Review recent session summaries if needed
-
-The user sent you here to review the project structure and your operating rules. Take a moment to read the relevant files before continuing.
 
