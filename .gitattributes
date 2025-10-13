@@ -1,0 +1,3 @@
+# Exclude development/meta files from git archive and GitHub releases
+project-template-build-out-meta-wip/ export-ignore
+
