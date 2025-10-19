@@ -30,7 +30,7 @@ An AI context system (starter pack) for vibe coding and AI-assisted development.
 
 The repository maintains two contexts:
 
-**`ai-context/`** - The clean template product
+**`ai-context-management/`** - The clean template product
 - This is what users copy into their projects
 - Contains only SYSTEM and TEMPLATE files
 - No example content or implementation details

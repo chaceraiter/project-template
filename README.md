@@ -4,9 +4,9 @@ A tool-agnostic folder structure that helps AI coding assistants maintain contex
 
 ## For Template Users
 
-**Download the latest [Release](https://github.com/chaceraiter/project-template/releases)** and copy the `ai-context/` folder into your project.
+**Download the latest [Release](https://github.com/chaceraiter/project-template/releases)** and copy the `ai-context-management/` folder into your project.
 
-Then see [`ai-context/for-humans/how-to-use-this-ai-context-system.md`](ai-context/for-humans/how-to-use-this-ai-context-system.md) for setup instructions.
+Then see [`ai-context-management/for-humans/how-to-use-this-ai-context-system.md`](ai-context-management/for-humans/how-to-use-this-ai-context-system.md) for setup instructions.
 
 ## For Contributors
 
