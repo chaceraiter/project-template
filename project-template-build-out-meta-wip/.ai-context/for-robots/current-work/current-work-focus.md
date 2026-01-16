@@ -6,5 +6,4 @@ We are building an AI context system (starter pack) for vibe coding / AI-assiste
 
 - **Intermediate Goal:** Plan and build out the directory structure in `project-template-build-out-meta-wip/.ai-context/` with two main sections: `for-humans/` (instructions for humans) and `for-robots/` (files for AI agents to read). Renamed main folder to `ai-context-management/`.
 
-- **Current Task:** We've finalized the directory structure with `project-setup/`, `current-work/`, and `past-chat-record/` subdirectories. Next, we need to write the actual content for `paste-this-into-new-ai-chats.txt` and `ai-agent-orientation-start-here.md` that will bootstrap new AI conversations.
-
+- **Current Task:** Capture and execute a short backlog of improvements to the agent instructions and procedures (starting with stale-chat and new-chat entrypoint assumptions), while keeping the reusable template (`ai-context-management/`) generic and tracking build notes in this meta mirror.
