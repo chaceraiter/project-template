@@ -1,4 +1,3 @@
 <!-- SYSTEM FILE - Do not modify. Copy this text into an AI chat that's losing context. -->
 
-This chat is losing context. Please read ../for-robots/ai-agent-stale-chat-procedures.md and follow all instructions contained within.
-
+This chat is losing context. Please read `ai-context-management/for-robots/ai-agent-stale-chat-procedures.md` and follow all instructions contained within.

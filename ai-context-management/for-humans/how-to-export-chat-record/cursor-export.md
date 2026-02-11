@@ -2,24 +2,25 @@
 
 # Exporting Chats from Cursor
 
-## Method 1: Copy-Paste (Simple)
-1. In Cursor, select all text in the chat window (Cmd+A / Ctrl+A)
+First read `record-format-standard.md` in this folder.
+
+## Method 1: Copy-Paste Transcript (Most Common)
+1. In Cursor chat, select all visible messages (Cmd+A / Ctrl+A)
 2. Copy (Cmd+C / Ctrl+C)
-3. Create a new file in `past-chat-record/` with today's date
-4. Paste the full conversation
-5. Save the file
+3. Create a file in `ai-context-management/for-robots/past-chat-record/`
+4. Use filename format from `record-format-standard.md`
+5. Paste and save
 
-## Method 2: Export Feature (if available)
-Check if Cursor has a built-in export feature:
-- Look for an export button in the chat interface
-- Check Settings → Chat → Export options
-- Right-click in chat window for context menu options
+## Method 2: Built-In Export (If Available)
+1. Check Cursor chat UI for Export/Share actions
+2. Export the conversation
+3. Save it to `ai-context-management/for-robots/past-chat-record/` with standard naming
 
-## Method 3: Use Cursor's API/Extensions
-[TODO: Research if Cursor provides export APIs or extensions]
+## Method 3: Structured Summary (Fallback)
+Use this when full export is unavailable or too noisy:
+1. Write a structured summary using the required sections in `record-format-standard.md`
+2. Save to `ai-context-management/for-robots/past-chat-record/` with standard naming
 
-## Tips
-- Export significant sessions at the end of each work day
-- Include the full conversation, not just summaries
-- If the chat is very long, consider splitting into multiple files by topic
+## After Export
 
+Follow the required post-export updates in `record-format-standard.md` so current context stays accurate.

@@ -2,28 +2,25 @@
 
 # Exporting Chats from Claude
 
-## Method 1: Copy Conversation
+First read `record-format-standard.md` in this folder.
+
+## Method 1: Copy Conversation (Most Common)
 1. Open the conversation in Claude (claude.ai or Claude app)
 2. Select all text (Cmd+A / Ctrl+A)
 3. Copy (Cmd+C / Ctrl+C)
-4. Paste into a new file in `past-chat-record/`
-5. Save with appropriate filename
+4. Paste into a file in `ai-context-management/for-robots/past-chat-record/`
+5. Use filename format from `record-format-standard.md`
 
-## Method 2: Download Conversation (if available)
-Check if Claude has added export features:
-- Look for a download/export button in the conversation interface
-- Check account settings for data export options
-- Look for "..." or menu button in conversation view
+## Method 2: Built-In Export/Share (If Available)
+1. Check for Download/Share/Export actions in conversation UI
+2. Export if available
+3. Save to `ai-context-management/for-robots/past-chat-record/` with standard naming
 
-## Method 3: Browser Developer Tools
-For web-based Claude:
-1. Open browser developer tools (F12)
-2. Look for conversation data in Network or Console tabs
-3. Copy relevant JSON/text data
-4. Format and save to `past-chat-record/`
+## Method 3: Structured Summary (Fallback)
+Use this when a complete transcript is unavailable:
+1. Write a structured summary using required sections in `record-format-standard.md`
+2. Save it to `ai-context-management/for-robots/past-chat-record/` with standard naming
 
-## Tips
-- Claude conversations are usually well-formatted for copy-paste
-- Check if Claude.ai has added export features (they update frequently)
-- For long conversations, scroll to load all messages before copying
+## After Export
 
+Follow the required post-export updates in `record-format-standard.md` so current context stays accurate.
