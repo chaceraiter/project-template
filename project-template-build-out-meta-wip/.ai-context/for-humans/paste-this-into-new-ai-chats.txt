@@ -1,2 +1,8 @@
-Please read ../for-robots/ai-agent-orientation-start-here.md and follow all instructions contained within.
+<!-- SYSTEM FILE - Do not modify. Copy this text into any new AI chat to bootstrap the AI context system. -->
 
+Please read `ai-context-management/for-robots/ai-agent-orientation-start-here.md` and follow it exactly.
+
+Critical: before doing any setup or re-reading work, ask me which scenario applies:
+- A) Brand-new repo + new AI context system
+- B) Existing repo + adding AI context system now
+- C) Existing repo + existing AI context system, starting a fresh chat

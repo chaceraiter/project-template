@@ -1,29 +1,26 @@
+<!-- SYSTEM FILE - Do not modify. Reference guide for exporting chats. -->
+
 # Exporting Chats from ChatGPT
 
-## Method 1: Built-in Export (Recommended)
-1. Click on your profile icon (bottom left)
-2. Go to Settings → Data Controls
-3. Click "Export data"
-4. Wait for email with download link
-5. Download and extract your conversations
-6. Copy relevant conversation to `past-chat-record/`
+First read `record-format-standard.md` in this folder.
 
-## Method 2: Copy Individual Conversation
+## Method 1: Copy Individual Conversation (Most Practical)
 1. Open the conversation you want to save
-2. Click the conversation title at the top
-3. Look for "Share" or "Export" option
-4. If available, use that; otherwise manually copy-paste
-5. Select all (Cmd+A / Ctrl+A) and copy
-6. Paste into a new file in `past-chat-record/`
+2. Use available Share/Export actions, or copy-paste manually
+3. Save to `ai-context-management/for-robots/past-chat-record/`
+4. Use filename format from `record-format-standard.md`
 
-## Method 3: Browser Extensions
-Several browser extensions exist for exporting ChatGPT conversations:
-- "ChatGPT Exporter" (Chrome/Firefox)
-- "ChatGPT to Markdown" (Chrome)
-- Search for updated extensions in your browser's extension store
+## Method 2: Built-In Account Export (Bulk)
+1. Open ChatGPT settings and look for Data Export
+2. Request/export account data
+3. Extract the specific conversation needed
+4. Save selected content to `ai-context-management/for-robots/past-chat-record/` using standard naming
 
-## Tips
-- ChatGPT's built-in export is comprehensive but includes ALL chats
-- For single conversations, copy-paste or browser extensions work well
-- Consider using markdown format for better readability
+## Method 3: Structured Summary (Fallback)
+Use this when you cannot capture a clean transcript:
+1. Write a structured summary using required sections in `record-format-standard.md`
+2. Save it to `ai-context-management/for-robots/past-chat-record/` with standard naming
 
+## After Export
+
+Follow the required post-export updates in `record-format-standard.md` so current context stays accurate.

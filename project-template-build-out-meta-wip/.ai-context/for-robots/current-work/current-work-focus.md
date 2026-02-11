@@ -6,4 +6,4 @@ We are building an AI context system (starter pack) for vibe coding / AI-assiste
 
 - **Intermediate Goal:** Plan and build out the directory structure in `project-template-build-out-meta-wip/.ai-context/` with two main sections: `for-humans/` (instructions for humans) and `for-robots/` (files for AI agents to read). Renamed main folder to `ai-context-management/`.
 
-- **Current Task:** Validate and review the completed instruction backlog changes in `ai-context-management/` (items 1-6), then decide whether to commit/push as a single batch or split by logical change set.
+- **Current Task:** Keep meta status tracking current and maintain selective mirror-sync for shared system docs, while preserving meta-specific `current-work/` and `project-setup/` content.

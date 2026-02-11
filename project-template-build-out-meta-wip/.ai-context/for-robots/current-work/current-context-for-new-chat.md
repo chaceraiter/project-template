@@ -6,30 +6,42 @@ This meta folder mirrors the template structure and captures project-template-sp
 
 - The reusable template lives in `ai-context-management/` and should stay generic.
 - This meta mirror lives in `project-template-build-out-meta-wip/.ai-context/` and is where we track build/process notes and future improvements.
-- The system is mostly finished; remaining work is a short set of targeted improvements to agent instructions and procedures.
+- The targeted instruction/procedure backlog (items 1-6) was completed in the template on 2026-02-11.
+- Main system-doc updates from the template were mirrored into this meta folder on 2026-02-11 (orientation/stale flows, human usage docs, export docs, and past-chat-record process docs).
+- `current-work/` and `project-setup/` remain intentionally meta-specific instead of fully mirrored.
 
-## Known Pain Points to Address
+## Resolved Pain Points (Completed 2026-02-11)
 
-- **Triple-option new chat onboarding is incomplete:** New-chat orientation must explicitly support all three cases:
+- **Triple-option new chat onboarding was incomplete:** New-chat orientation now explicitly supports all three cases:
   - Brand-new repo + new AI context system
   - Existing repo + new AI context system
   - Existing repo + existing AI context system, but new chat (context-rot reset)
-- **Relative path ambiguity causes wrong folder placement:** Some agents interpret names like `past-chat-record/` as repo-root folders instead of `ai-context-management/for-robots/past-chat-record/`.
-- **Long-chat drift:** In long sessions, agents stop proactively using or referencing the context management system unless the user reminds them.
+- **Relative path ambiguity caused wrong folder placement:** Instructions now use anchored `ai-context-management/...` paths and explicit root-folder guardrails.
+- **Long-chat drift:** Proactive context-maintenance reminders were added so agents keep using the system during long sessions.
 
-## Backlog: Planned Improvements (Do Next, 1-by-1)
+## Backlog Record (Completed)
 
-1. **Stale chat procedure:** Adjust stale AI flow so it explicitly asks which of the two options to take before doing any additional project reading or actions. Target: `ai-context-management/for-robots/ai-agent-stale-chat-procedures.md`.
-2. **New chat entrypoint assumptions:** Update the “new AI chat” flow so it explicitly supports three cases: (a) brand-new repo + new AI context system, (b) existing repo + new AI context system, and (c) existing repo + existing AI context system with a new chat for context reset. Targets: `ai-context-management/for-robots/ai-agent-orientation-start-here.md` and `ai-context-management/for-humans/paste-this-into-new-ai-chats.txt` (or equivalent entrypoint).
-3. **Update cadence emphasis + proactive reminders:** Improve the docs to emphasize regularly updating `current-work/` and other context folders, with clearer guidance on when/what to update and where those reminders live; include explicit proactive reminder behavior for long chats. Targets: orientation + human instructions + operating rules if needed.
-4. **“Start fresh” automation:** Rework the stale-chat “Start Fresh” path to guide automatic context updates first, then ask whether to run `git status`, commit, and push (only after explicit user confirmation). Targets: stale-chat procedures + possibly operating rules.
-5. **Chat export + past-chat-record procedures:** Update export instructions and the `past-chat-record/` process (format, naming, what to include, export vs summary, and how/when to update current-work docs afterward). Targets: `ai-context-management/for-humans/how-to-export-chat-record/*.md` and related robot procedures.
-6. **Path safety hardening:** Standardize instructions to use unambiguous anchored paths under `ai-context-management/` (or explicit relative-from-current-file references) and explicitly say not to create context folders at repo root unless intentionally configured.
+1. **Stale chat procedure:** Completed in template.
+2. **New chat entrypoint assumptions (A/B/C):** Completed in template.
+3. **Update cadence emphasis + proactive reminders:** Completed in template.
+4. **“Start fresh” automation with explicit git confirmations:** Completed in template.
+5. **Chat export + past-chat-record procedures:** Completed in template.
+6. **Path safety hardening:** Completed in template.
 
-## Plan
+## Current Plan
 
-- Keep all implementation changes in the reusable template (`ai-context-management/`) but track planning and decisions here.
-- Execute the backlog top-to-bottom (1 → 6), validating each change against the intended “template vs meta” separation.
+- Keep implementation in the reusable template (`ai-context-management/`) and keep build/process tracking in this meta mirror.
+- Keep meta status files current.
+- Continue selective mirroring of shared system docs when template behavior changes, while preserving meta-specific tracking/project content.
+
+## Possible Future Features
+
+1. **Instruction self-test harness:** Add prompt-in/expected-behavior tests for core flows (A/B/C onboarding, stale-chat A/B gate, and root-folder guardrails).
+2. **Template versioning:** Add `VERSION.md` and `CHANGELOG.md` under `ai-context-management/` so downstream projects can adopt updates safely.
+3. **Context health-check script:** Add an automated check for missing required files, unresolved TODO placeholders, and ambiguous path references.
+4. **Canonical scenario playbooks:** Add concrete end-to-end examples for the three onboarding scenarios to reduce agent interpretation drift.
+5. **Agent drift recovery prompt:** Add a standard recovery/reset prompt when long chats stop using context files proactively.
+6. **Update cadence SLA:** Define explicit minimum update cadence rules (for example, after major changes and periodically during long sessions).
 
 ## Progress Updates
 
